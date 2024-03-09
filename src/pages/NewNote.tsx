@@ -1,14 +1,15 @@
-import Heading from "../components/Heading"
+import { Heading, NoteForm } from "../constants"
 
 type Props = {}
 
 const NewNote = (props: Props) => {
   return (
     <div>
-      <Heading variant="body2"
-      sx={{ fontWeight: 800 , maxWidth: 500 }}
+      <Heading variant="h3"
+      sx={{ marginBottom: '16px' }}
       gutterBottom
       >New Note</Heading>
+      <NoteForm/>
     </div>
   )
 }
