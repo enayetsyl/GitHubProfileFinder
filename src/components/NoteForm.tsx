@@ -1,7 +1,6 @@
 import ReactSelectCreatable from 'react-select/creatable';
-type Props = {}
 
-const NoteForm = (props: Props) => {
+const NoteForm = () => {
   return (
     <div className='container mx-auto'>
       <form>
