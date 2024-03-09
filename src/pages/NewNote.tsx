@@ -1,8 +1,7 @@
 import { Heading, NoteForm } from "../constants"
 
-type Props = {}
 
-const NewNote = (props: Props) => {
+const NewNote = () => {
   return (
     <div>
       <Heading variant="h3"
