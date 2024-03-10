@@ -7,7 +7,7 @@ function App() {
 
   return (
   
-  <div className="container">
+  <div className="bg-blue-300 min-h-screen pt-10">
     <Routes>
     <Route path='/' element={<h1 className="font-bold text-5xl text-red-500">Hi</h1>}/>
     <Route path='/new' element={<NewNote />}/>

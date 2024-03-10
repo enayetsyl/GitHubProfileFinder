@@ -3,7 +3,7 @@ import { Heading, NoteForm } from "../constants"
 
 const NewNote = () => {
   return (
-    <div>
+    <div className='container mx-auto'>
       <Heading variant="h3"
       sx={{ marginBottom: '16px' }}
       gutterBottom

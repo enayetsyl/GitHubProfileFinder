@@ -1,3 +1,57 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+/* button style */
+.btnc{
+  position: relative;
+}
+
+a{
+  position: absolute;
+  /* top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%); */
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 18px;
+  font-weight: bold;
+  color: #262626;
+  letter-spacing: 3px;
+  border: 4px solid #2563EB;
+  padding: 10px 20px;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+a:before{
+  content: attr(data-title);
+  position: absolute;
+  top: 100%;
+  left: 0;
+background: #93C5FD;
+color: rgb(0,40,255);
+padding: 10px 20px;
+box-sizing: border-box;
+transition: 0.3s;
+
+}
+a:after{
+  content: attr(data-title);
+  position: absolute;
+  top: 0;
+  left: 0;
+background: #93C5FD;
+color: #000;
+padding: 10px 20px;
+box-sizing: border-box;
+transition: 0.3s;
+
+}
+a:hover:before{
+  top: 0;
+}
+a:hover:after{
+  top: -100%;
+}
