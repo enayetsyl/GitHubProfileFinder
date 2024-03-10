@@ -1,22 +1,12 @@
+import { ButtonProps } from "../types"
 
-type ButtonProps = {
-  
-  children: string;
-}
 
-const Button = ({ children}: ButtonProps) => {
+const Button = ({onClick,children, className } : ButtonProps) => {
   return (
-    <div className="btnc">
-      {/* <a href="#" data-title={dataTitle}
-      className="btn">
-        {children}
-      </a> */}
-      <button
-      className="border-[4px] border-[#2563EB] text-lg font-bold tracking-[3px] overflow-hidden px-5 py-2 text-[#2563eb] hover:bg-white hover:text-black  hover:-translate-y-1 ease 
-      hover:transition
-      hover:duration-300 rounded-lg"
-      >{children}</button>
-    </div>
+    <button
+  onClick={onClick}
+  className={`px-4 py-2 bg-blue-600 text-white rounded-lg font-semibold text-lg hover:-translate-y-1 hover:scale-105 duration-700 ease-in ${className}`}
+  >{children}</button>
   )
 }
 
