@@ -31,14 +31,25 @@ The codebase of the GitHub Profile Finder prioritizes readability and maintainab
 
 The GitHub Profile Finder is a well-crafted web application that demonstrates proficiency in modern web development technologies and best practices. By leveraging React, TypeScript, and modular component architecture, the application achieves a balance between functionality, maintainability, and user experience. Moving forward, continued focus on code quality, design refinement, and feature enhancement will ensure the GitHub Profile Finder remains a valuable tool for users seeking to explore GitHub profiles with ease.
 
-Live Link : https://git-hub-profile-finder1.vercel.app/
-Live Link : [https://git-hub-profile-finder-three.vercel.app/](https://git-hub-profile-finder1.vercel.app/)
+[Live Link] : (https://git-hub-profile-finder1.vercel.app/)
+[Git Hub] : (https://github.com/enayetsyl/GitHubProfileFinder)
 
-Documentation : https://md-enayetur-rahman.gitbook.io/typescript-project-github-profile-finder/
+---
+**Author:** Md Enayetur Rahman
 
-Portfolio : https://md-enayetur-rahman-portfolio.vercel.app/
+### Contact Information
+- [LinkedIn](https://www.linkedin.com/in/md-enayetur-rahman/)
+- [Facebook](https://www.facebook.com/profile.php?id=100094416483981)
+- [X (Twitter)](https://x.com/enayetu_syl)
+- [YouTube](https://www.youtube.com/@MdEnayeturRahman)
+- [GitHub](https://github.com/enayetsyl/)
+- [Medium](https://medium.com/@enayetflweb)
+- [dev.to](https://dev.to/md_enayeturrahman_2560e3)
+- [Leetcode](https://leetcode.com/u/XTl7hvNPIc/)
+- [Hackerrank](https://www.hackerrank.com/profile/enayetflweb)
+- [Codeforces](https://codeforces.com/profile/enayetsyl)
+- [Email](mailto:enayetflweb@gmail.com)
 
-Linkedin : https://www.linkedin.com/in/md-enayetur-rahman/
 
 
 
